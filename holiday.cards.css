@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: darkolivegreen;
+    position: relative;
+}
+
+.header .navbar{
+    width: 100%;
+    height: 80px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.h1{
+    width: 100%;
+    font-size: medium;
+    text-align: center;
+    position: relative;
+}
+
+.login-btn{
+    display: block;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #f3ef51;
+    padding: 8px 40px;
+    margin-right: 100px;
+ }
+
+.Holiday-Cards{
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 300px;
+}
+
+.Holiday-Cards ul{
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center;
+   
+}
+
+.Holiday-Cards ul li{
+    margin: 0 85px;
+    cursor: pointer;
+    
+}
+
+.Holiday-Cards ul li img{
+    width: 150px;
+    position: relative;
+    right: 250px;
+    bottom: 70px;
+}
+
+.Holiday-Cards ul li h2{
+   font-size: large;
+   width: 90px;
+   position: relative;
+   right: 250px;
+   bottom: 90px;
+   color: brown;
+}
+
+.Holiday-Cards ul li h3{
+   font-size: large;
+   width: 90px;
+   position: relative;
+   right: 250px;
+   bottom: 90px;
+   color: brown;
+}
+
+.Holiday-Cards ul li h4{
+   font-size: large;
+   width: 90px;
+   position: relative;
+   right: 250px;
+   bottom: 90px;
+   color: brown;
+}
+
+.Holiday-Cards ul li h5{
+    font-size: large;
+    width: 90px;
+    position: relative;
+    right: 250px;
+    bottom: 90px;
+    color: brown;
+ }
+
